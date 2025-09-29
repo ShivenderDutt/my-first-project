@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -338,3 +339,344 @@ footer p{
 }
 
 /* Media Screen Css End */
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+}
+
+.nav-var {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    height: 52px;
+}
+
+.nav-var h2 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #05833C;
+}
+
+.nav-menu {
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    color: #05833C;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.nav-var .nav-menu a{
+    text-decoration: none;
+    color: #05833C;
+}
+
+.hero-sec {
+    margin-top: 1%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("./Assets/Hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 43vw;
+    text-align: center;
+    padding-top: 17vw;
+}
+
+.hero-sec h1 {
+    font-size: 4.2vw;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.hero-sec p {
+    font-size: 2vw;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #05833C;
+    border-radius: 5px;
+    width: 560px;
+    margin-left: 32vw;
+}
+
+.section1-heading {
+    text-align: center;
+}
+
+.section1-heading H2 {
+    font-size: 3vw;
+    font-weight: 650;
+    color: #05833C;
+}
+
+.section1-p {
+    font-size: 1.1vw;
+    font-weight: 450;
+    line-height: 30px;
+    width: 95%;
+}
+
+.mainvdo video {
+    width: 450px;
+    height: 320px;
+}
+
+.section2-heading {
+    font-size: 3vw;
+    font-weight: 650;
+    color: #05833C;
+}
+
+.section-2-subhead {
+    font-size: 1.3vw;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+
+.section-2-p1 {
+
+}
+
+.warm-regard {
+    font-size: 1.2vw;
+    color: #000000;
+    font-weight: 550;
+}
+
+.polyji {
+    font-size: 1vw;
+    font-weight: 550;
+    color: #000000;
+}
+
+.sec-3-head {
+    font-size: 1.5vw;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+
+.sec-3-para {
+    font-size: 1.1vw;
+    font-weight: 450;
+    line-height: 30px;
+    width: 95%;
+}
+
+.sec-4-warm {
+    font-size: 1.2vw;
+    color: #000000;
+    font-weight: 550;
+}
+
+.sec-4-warm-p {
+    font-size: 1vw;
+    font-weight: 550;
+    color: #000000;
+}
+
+.sec-4-head {
+    font-size: 1.5vw;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+
+.sec-4-p {
+    font-size: 1.1vw;
+    font-weight: 450;
+    line-height: 30px;
+    width: 98%;
+}
+
+.sec-4-warm {
+    font-size: 1.2vw;
+    color: #000000;
+    font-weight: 550;
+}
+
+.sec-5-warmp {
+    font-size: 1vw;
+    font-weight: 550;
+    color: #000000;
+}
+
+.sec-5-head {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.sec-5-head h2 {
+    font-size: 3vw;
+    font-weight: 650;
+    color: #05833C;
+}
+
+.sec-5-head p {
+    font-size: 1vw;
+    font-weight: 450;
+    line-height: 20px;
+}
+
+.span1 {
+    color: red;
+    font-size: 1.1vw;
+    font-weight: 550;
+}
+.last-sec-img img{
+    height: 20vw;
+    width: 100%;
+    margin-top: 2%;
+}
+footer p{
+    text-align: center;
+    background-color: #05833C;
+    color: #FFFFFF;
+    font-size: 1.1vw;
+    font-weight: 550;
+    padding: 8px 8px;
+    letter-spacing: 1px;
+}
+.play-btn{
+    position: absolute;
+    top: 32%;
+    left: 38%;
+}
+
+/* Media Screen Css Start */
+
+@media screen and (max-width:600px) {
+    .nav-var {
+        padding-top: 1%;
+        height: 38px !important;
+    }
+
+    .nav-var img {
+        height: 40px !important;
+        width: 45px !important;
+    }
+
+    .nav-var h2 {
+        font-size: 2.8vw !important;
+        padding-top: 10px !important;
+    }
+    .hero-sec{
+        padding-top: 14vw !important;
+    }
+    .hero-sec h1 {
+        font-size: 6vw !important;
+    }
+    .hero-sec p{
+        font-size: 3vw !important;
+        width: 290px !important;
+        margin-left: 26vw !important;
+    }
+
+    .section1-heading H2 {
+        font-size: 7.5vw !important;
+        font-weight: 650 !important;
+        color: #05833C !important;
+    }
+
+    .section1-p {
+        font-size: 3.5vw !important;
+        font-weight: 450 !important;
+        line-height: 25px !important;
+        margin-top: 2% !important;
+    }
+
+    .section2-heading {
+        font-size: 7.5vw !important;
+        font-weight: 650 !important;
+    }
+
+    .section-2-subhead {
+        font-size: 4.5vw !important;
+        padding-top: 5% !important;
+    }
+
+    .section-2-p1 {
+        font-size: 3.5vw !important;
+        font-weight: 450 !important;
+        line-height: 25px !important;
+    }
+
+    .warm-regard {
+        font-size: 3.6vw !important;
+    }
+
+    .polyji {
+        font-size: 2.8vw !important;
+    }
+
+    .sec-3-head {
+        font-size: 4.5vw !important;
+    }
+
+    .sec-3-para {
+        font-size: 3.5vw !important;
+        font-weight: 450 !important;
+        line-height: 25px !important;
+    }
+
+    .sec-4-warm {
+        font-size: 3.6vw !important;
+    }
+
+    .sec-4-warm-p {
+        font-size: 2.8vw !important;
+        padding-bottom: 5% !important;
+    }
+
+    .sec-4-head {
+        margin-top: 5%;
+        font-size: 4.5vw !important;
+    }
+
+    .sec-4-p {
+        font-size: 3.5vw !important;
+        font-weight: 450 !important;
+        line-height: 25px !important;
+    }
+
+    .sec-5-warmp {
+        font-size: 2.8vw !important;
+    }
+
+    .sec-5-head h2 {
+        font-size: 7.5vw !important;
+        font-weight: 650 !important;
+    }
+
+    .sec-5-head p {
+        font-size: 2.3vw !important;
+    }
+
+    .span1 {
+        font-size: 2.2vw !important;
+    }
+}
+ @media screen and (max-width:600px) {
+    .nav-var ul li{
+        display: none !important;
+    }
+ }
+ @media screen and (max-width:768px) {
+   .hero-sec p{width: 215px !important;
+    margin-left: 32vw !important;
+}
+ }
+ @media screen and (max-width:515px) {
+    .hero-sec p{width: 200px !important;
+     margin-left: 26vw !important;
+    }
+
+    
+}
+
+
+/* Media Screen Css End */
+>>>>>>> 38ac464820a1eb5cdcd82d3c12147f3b6fbed0f1
